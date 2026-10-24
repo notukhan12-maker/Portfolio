@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdur-Rahman — Frontend Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="nav-container">
+            <a href="#hero" class="logo">&lt;Abdur-Rahman /&gt;</a>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact" class="btn-nav">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-container">
+            <div class="hero-badge">
+                <span class="pulse"></span> Available for Frontend Opportunities
+            </div>
+            <h1>Hi, I'm Abdur-Rahman. <span class="gradient-text">Frontend Developer.</span></h1>
+            <p>I build clean, responsive, and aesthetic web interfaces with modern HTML, CSS, Tailwind, and JavaScript.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <h3>1+</h3>
+                <p>Year Experience</p>
+            </div>
+            <div class="stat-item">
+                <h3>4+</h3>
+                <p>Featured Projects</p>
+            </div>
+            <div class="stat-item">
+                <h3>100%</h3>
+                <p>Responsive Design</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>A brief look into my background and passion.</p>
+            </div>
+            <div class="about-card glass">
+                <p>I am a dedicated frontend developer with 1 year of hands-on experience turning creative layouts into functional web applications. My core toolkit revolves around <strong>HTML5, CSS3, Tailwind CSS, and JavaScript</strong>. I focus on writing clean code and crafting responsive, user-friendly digital experiences that look stunning on any screen size.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+                <p>Applications and interactive websites I have built.</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Weather App -->
+                <div class="project-card">
+                    <div class="project-img bg-weather">
+                        <i class="fa-solid fa-cloud-sun"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="tags">
+                            <span>JavaScript</span>
+                            <span>API</span>
+                            <span>CSS</span>
+                        </div>
+                        <h3>Weather App</h3>
+                        <p>A dynamic web application fetching real-time meteorological data and displaying live weather forecasts with clean UI updates.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fa-brands fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Calculator -->
+                <div class="project-card">
+                    <div class="project-img bg-calc">
+                        <i class="fa-solid fa-calculator"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <h3>Interactive Calculator</h3>
+                        <p>A fully functional arithmetic calculator handling standard mathematical operations with reliable state management in JavaScript.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fa-brands fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Coffee Web -->
+                <div class="project-card">
+                    <div class="project-img bg-coffee">
+                        <i class="fa-solid fa-mug-hot"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="tags">
+                            <span>HTML5</span>
+                            <span>Tailwind CSS</span>
+                            <span>Responsive</span>
+                        </div>
+                        <h3>Coffee Web Experience</h3>
+                        <p>An aesthetic landing page for a specialty coffee shop featuring fluid layouts, responsive grid design, and product highlights.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fa-brands fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pizza App -->
+                <div class="project-card">
+                    <div class="project-img bg-pizza">
+                        <i class="fa-solid fa-pizza-slice"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="tags">
+                            <span>JavaScript</span>
+                            <span> CSS</span>
+                            <span>DOM</span>
+                        </div>
+                        <h3>Pizza Ordering App</h3>
+                        <p>An interactive food ordering interface built with modern styling and responsive components for seamless user navigation.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fa-brands fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical Arsenal</h2>
+                <p>Core technologies I use to build user interfaces.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item glass">
+                    <i class="fa-brands fa-html5" style="color: #e34f26;"></i>
+                    <h3>HTML5</h3>
+                    <p>Semantic & accessible markup</p>
+                </div>
+                <div class="skill-item glass">
+                    <i class="fa-brands fa-css3-alt" style="color: #1572b6;"></i>
+                    <h3>CSS3</h3>
+                    <p>Flexbox, Grid & animations</p>
+                </div>
+                <div class="skill-item glass">
+                    <i class="fa-solid fa-wind" style="color: #38bdf8;"></i>
+                    <h3>Tailwind CSS</h3>
+                    <p>Utility-first responsive styling</p>
+                </div>
+                <div class="skill-item glass">
+                    <i class="fa-brands fa-js" style="color: #f7df1e;"></i>
+                    <h3>JavaScript</h3>
+                    <p>ES6+, DOM & API integration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-wrapper glass">
+                <div class="contact-info">
+                    <h2>Let's build something great together.</h2>
+                    <p>I'm open to freelance projects, frontend roles, or collaborations. Get in touch with me directly!</p>
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>notukhan12@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Remote / Worldwide</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Enter Your Name</label>
+                        <input type="text" id="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Enter Valid Email</label>
+                        <input type="email" id="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" rows="4" placeholder="Type your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    <p id="formStatus" class="form-status"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2026 Abdur-Rahman. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
